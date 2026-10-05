@@ -20,7 +20,7 @@ Vercel project: `khristoffer-nunnally-portfolio`, on the owner's Hobby account. 
 
 Repository root is the project root. Framework preset: Other. Output Directory: `public`. No build command is required; `vercel.json` supplies the output configuration.
 
-Once the GitHub integration is connected, pushes to `main` deploy to production. Other branches receive preview deployments. For manual deployment, run `npx vercel --prod` from this directory while authenticated to the correct account.
+The GitHub integration is connected to `nunster3000/khristoffer-nunnally-portfolio`. Pushes to `main` automatically deploy to production. Other branches receive preview deployments. For manual deployment, run `npx vercel --prod` from this directory while authenticated to the correct account.
 
 ## Files
 
