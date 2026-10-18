@@ -29,6 +29,7 @@ themeButton.addEventListener("click", () => {
 const descriptions = {
   core: "CoreRunner → booking, dispatch & delivery proof.",
   rydr: "Rydr → clearer connections for riders & drivers.",
+  cleaning: "Proverbs 31 → cinematic storytelling & interactive care planning.",
   drive: "DriveCoach → a new product taking shape.",
 };
 document.querySelectorAll("[data-preview]").forEach((button) => {
@@ -102,8 +103,9 @@ const motionToggle = document.querySelector("#motion-toggle");
 const codePane = document.querySelector("#animated-code");
 const editorPhase = document.querySelector("#editor-phase");
 const snippets = [
-  '// CoreRunner / delivery experience\nconst project = {\n  name: "CoreRunner",\n  stack: ["React", "Express"],\n  flows: [\n    "book", "dispatch", "deliver"\n  ],\n  status: "local prototype"\n};',
+  '// CoreRunner / delivery experience\nconst project = {\n  name: "CoreRunner",\n  stack: ["React", "Express"],\n  flows: [\n    "book", "dispatch", "deliver"\n  ],\n  status: "live interactive demo"\n};',
   '// Rydr / connected journeys\nconst project = {\n  name: "Rydr",\n  site: "www.rydr-go.com",\n  experiences: [\n    "rider", "driver", "community"\n  ],\n  status: "controlled beta"\n};',
+  '// Proverbs 31 / thoughtful care\nconst project = {\n  name: "Proverbs 31 Cleaning",\n  site: "proverbs-31-cleaning.vercel.app",\n  flows: ["explore", "plan", "book"],\n  status: "live interactive demo"\n};',
   '// DriveCoach / next chapter\nconst project = {\n  name: "DriveCoach",\n  focus: "product exploration",\n  next: [\n    "define", "build", "refine"\n  ],\n  status: "in development"\n};',
 ];
 let snippetIndex = 0,

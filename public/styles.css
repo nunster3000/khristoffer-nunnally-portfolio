@@ -1718,3 +1718,6 @@ button:focus-visible {
 .rydr .visual-bottom {
   flex: none;
 }
+
+/* Proverbs 31 live project, using the same screenshot treatment as Rydr. */
+.cleaning{background:radial-gradient(ellipse at center,#8a714a,#332c23);height:400px;display:flex;flex-direction:column;padding:24px;color:#fff3d7}.cleaning .pill{border-color:#cfad6f}.cleaning .browser-bar{background:#2b251e}.cleaning .browser-bar span{color:#ddc79d}.cleaning .visual-top,.cleaning .visual-bottom{flex:none}.cleaning:hover .rydr-site-frame{transform:perspective(800px) rotateY(0)}.project-grid .project:last-child:nth-child(odd){grid-column:1/-1}.project-grid .project:last-child:nth-child(odd) .project-visual{max-height:330px}.terminal-projects{flex-wrap:wrap}@media(max-width:1050px){.cleaning{height:350px}}@media(max-width:800px){.cleaning{height:320px}.project-grid .project:last-child:nth-child(odd){grid-column:auto}}@media(max-width:520px){.cleaning{height:350px;padding:18px}.cleaning .visual-bottom{gap:12px;flex-wrap:wrap}.cleaning .visual-top{font-size:10px}.project-caption>div{min-width:0}}
