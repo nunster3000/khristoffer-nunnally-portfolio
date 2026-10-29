@@ -1719,5 +1719,59 @@ button:focus-visible {
   flex: none;
 }
 
+/* Technology summaries reuse the portfolio's typography, borders, and themes. */
+.tech-stack {
+  margin: 24px 0;
+  border-top: 1px solid var(--line);
+}
+.tech-stack > div {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 18px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.tech-stack dt {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+.tech-stack dd {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  color: var(--ink);
+}
+.card-stack {
+  margin: 0 12px;
+}
+.card-stack > div {
+  grid-template-columns: 85px minmax(0, 1fr);
+  gap: 12px;
+  padding: 10px 0;
+}
+.card-stack dd {
+  font-size: 12px;
+}
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+.project-links .text-link {
+  margin-top: 0;
+}
+.project > .project-links {
+  padding: 18px 12px 20px;
+}
+@media (max-width: 520px) {
+  .story .tech-stack > div {
+    grid-template-columns: 1fr;
+    gap: 3px;
+  }
+}
+
 /* Proverbs 31 live project, using the same screenshot treatment as Rydr. */
 .cleaning{background:radial-gradient(ellipse at center,#8a714a,#332c23);height:400px;display:flex;flex-direction:column;padding:24px;color:#fff3d7}.cleaning .pill{border-color:#cfad6f}.cleaning .browser-bar{background:#2b251e}.cleaning .browser-bar span{color:#ddc79d}.cleaning .visual-top,.cleaning .visual-bottom{flex:none}.cleaning:hover .rydr-site-frame{transform:perspective(800px) rotateY(0)}.project-grid .project:last-child:nth-child(odd){grid-column:1/-1}.project-grid .project:last-child:nth-child(odd) .project-visual{max-height:330px}.terminal-projects{flex-wrap:wrap}@media(max-width:1050px){.cleaning{height:350px}}@media(max-width:800px){.cleaning{height:320px}.project-grid .project:last-child:nth-child(odd){grid-column:auto}}@media(max-width:520px){.cleaning{height:350px;padding:18px}.cleaning .visual-bottom{gap:12px;flex-wrap:wrap}.cleaning .visual-top{font-size:10px}.project-caption>div{min-width:0}}

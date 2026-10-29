@@ -33,3 +33,15 @@ The GitHub integration is connected to `nunster3000/khristoffer-nunnally-portfol
 Typography uses Google Fonts with local fallbacks. Project copy avoids unverified usage metrics and commercial results. CoreRunner is a hosted portfolio demo; DriveCoach remains in development.
 
 Official hosting documentation: https://vercel.com/docs/plans/hobby
+
+## Engineering summaries
+
+The first three project cards and case studies distinguish programming languages,
+frameworks, backend services, and databases. CoreRunner distinguishes hosted
+Neon/PostgreSQL storage from local SQLite. Rydr is a native Swift/SwiftUI platform
+with JavaScript/Express APIs, TypeScript Firebase functions, Firestore, and a
+Next.js operations dashboard; its linked website is a companion site. Proverbs 31
+describes the JavaScript/Node.js and Supabase/PostgreSQL source while retaining the
+portfolio preview's simulation boundaries. Each includes a public source link.
+DriveCoach remains unchanged as a work in progress. The Full-stack filter includes
+the first three projects; Product exploration retains DriveCoach.

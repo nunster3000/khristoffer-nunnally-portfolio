@@ -27,9 +27,9 @@ themeButton.addEventListener("click", () => {
   } catch {}
 });
 const descriptions = {
-  core: "CoreRunner → booking, dispatch & delivery proof.",
-  rydr: "Rydr → clearer connections for riders & drivers.",
-  cleaning: "Proverbs 31 → cinematic storytelling & interactive care planning.",
+  core: "CoreRunner → JavaScript, React, Express & SQL.",
+  rydr: "Rydr → Swift iOS apps, Node.js & Firestore.",
+  cleaning: "Proverbs 31 → JavaScript, Node.js & PostgreSQL.",
   drive: "DriveCoach → a new product taking shape.",
 };
 document.querySelectorAll("[data-preview]").forEach((button) => {
@@ -103,9 +103,9 @@ const motionToggle = document.querySelector("#motion-toggle");
 const codePane = document.querySelector("#animated-code");
 const editorPhase = document.querySelector("#editor-phase");
 const snippets = [
-  '// CoreRunner / delivery experience\nconst project = {\n  name: "CoreRunner",\n  stack: ["React", "Express"],\n  flows: [\n    "book", "dispatch", "deliver"\n  ],\n  status: "live interactive demo"\n};',
-  '// Rydr / connected journeys\nconst project = {\n  name: "Rydr",\n  site: "www.rydr-go.com",\n  experiences: [\n    "rider", "driver", "community"\n  ],\n  status: "controlled beta"\n};',
-  '// Proverbs 31 / thoughtful care\nconst project = {\n  name: "Proverbs 31 Cleaning",\n  site: "proverbs-31-cleaning.vercel.app",\n  flows: ["explore", "plan", "book"],\n  status: "live interactive demo"\n};',
+  "// CoreRunner / full-stack delivery\nconst project = {\n  name: \"CoreRunner\",\n  language: \"JavaScript\",\n  ui: \"React\",\n  api: \"Node.js + Express\",\n  hosted: \"Neon / PostgreSQL\",\n  local: \"SQLite\"\n};" ,
+  "// Rydr / native iOS platform\nconst project = {\n  app: \"Swift + SwiftUI\",\n  api: \"JavaScript / Node.js\",\n  functions: \"TypeScript\",\n  data: \"Cloud Firestore\",\n  dashboard: \"Next.js\",\n  status: \"controlled beta\"\n};" ,
+  "// Proverbs 31 / full-stack care\nconst project = {\n  language: \"JavaScript\",\n  ui: \"HTML + CSS\",\n  api: \"Node.js on Vercel\",\n  database: \"PostgreSQL\",\n  platform: \"Supabase\",\n  queries: \"SQL / PLpgSQL\"\n};" ,
   '// DriveCoach / next chapter\nconst project = {\n  name: "DriveCoach",\n  focus: "product exploration",\n  next: [\n    "define", "build", "refine"\n  ],\n  status: "in development"\n};',
 ];
 let snippetIndex = 0,
