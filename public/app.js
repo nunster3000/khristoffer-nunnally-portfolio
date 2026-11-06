@@ -30,6 +30,7 @@ const descriptions = {
   core: "CoreRunner → JavaScript, React, Express & SQL.",
   rydr: "Rydr → Swift iOS apps, Node.js & Firestore.",
   cleaning: "Proverbs 31 → JavaScript, Node.js & PostgreSQL.",
+  luvsparq: "LuvSparq → Dart, Flutter & an interactive launch website.",
   drive: "DriveCoach → a new product taking shape.",
 };
 document.querySelectorAll("[data-preview]").forEach((button) => {
@@ -103,6 +104,7 @@ const motionToggle = document.querySelector("#motion-toggle");
 const codePane = document.querySelector("#animated-code");
 const editorPhase = document.querySelector("#editor-phase");
 const snippets = [
+  "// LuvSparq / dating & friendship\nconst project = {\n  app: \"Dart + Flutter\",\n  website: \"HTML + CSS + JavaScript\",\n  hosting: \"Vercel\",\n  status: \"frontend prototype\",\n  backend: \"planned\"\n};",
   "// CoreRunner / full-stack delivery\nconst project = {\n  name: \"CoreRunner\",\n  language: \"JavaScript\",\n  ui: \"React\",\n  api: \"Node.js + Express\",\n  hosted: \"Neon / PostgreSQL\",\n  local: \"SQLite\"\n};" ,
   "// Rydr / native iOS platform\nconst project = {\n  app: \"Swift + SwiftUI\",\n  api: \"JavaScript / Node.js\",\n  functions: \"TypeScript\",\n  data: \"Cloud Firestore\",\n  dashboard: \"Next.js\",\n  status: \"controlled beta\"\n};" ,
   "// Proverbs 31 / full-stack care\nconst project = {\n  language: \"JavaScript\",\n  ui: \"HTML + CSS\",\n  api: \"Node.js on Vercel\",\n  database: \"PostgreSQL\",\n  platform: \"Supabase\",\n  queries: \"SQL / PLpgSQL\"\n};" ,

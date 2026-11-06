@@ -45,3 +45,7 @@ describes the JavaScript/Node.js and Supabase/PostgreSQL source while retaining 
 portfolio preview's simulation boundaries. Each includes a public source link.
 DriveCoach remains unchanged as a work in progress. The Full-stack filter includes
 the first three projects; Product exploration retains DriveCoach.
+
+## LuvSparq
+
+Added LuvSparq to the project grid, Product exploration filter, terminal selector, and Behind the work. Links to https://luvsparq.app and uses a screenshot of the live landing page. Copy distinguishes the Dart/Flutter frontend and live static website from planned backend services. No public source link is provided for its private repository.
