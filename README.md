@@ -49,3 +49,5 @@ the first three projects; Product exploration retains DriveCoach.
 ## LuvSparq
 
 Added LuvSparq to the project grid, Product exploration filter, terminal selector, and Behind the work. Links to https://luvsparq.app and uses a screenshot of the live landing page. Copy distinguishes the Dart/Flutter frontend and live static website from planned backend services. No public source link is provided for its private repository.
+
+Vercel GitHub access for this repository was restored on November 6, 2026 after it was missing from the installation's selected repositories.
